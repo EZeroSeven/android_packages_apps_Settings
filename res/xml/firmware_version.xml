@@ -19,7 +19,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="firmware_version_screen"
-    android:title="@string/firmware_version"
+    android:title="バージョン画面 ` Version Screen"
     settings:keywords="@string/keywords_android_version">
 
 <PreferenceScreen
@@ -30,7 +30,7 @@
     <!--Android version-->
     <Preference
         android:key="os_firmware_version"
-        android:title="@string/firmware_version"
+        android:title="ファームウェア `Firmware"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
@@ -38,7 +38,7 @@
     <!-- Corvus version -->
     <Preference
          android:key="crvs_version"
-         android:title="@string/crvs_version"
+         android:title="コロナ `crvs version"
          android:summary="@string/summary_placeholder"
          settings:enableCopying="true"
          settings:controller="com.android.settings.deviceinfo.firmwareversion.CrvsVersionPreferenceController"/>
@@ -46,7 +46,7 @@
     <!-- Device name -->
     <Preference
         android:key="about_device_name"
-        android:title="@string/about_device_name"
+        android:title="デバイスについて `About Device"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AboutDeviceNamePreferenceController"/>
@@ -54,7 +54,7 @@
     <!-- Corvus maintainer -->
     <Preference
         android:key="maintainer"
-        android:title="@string/maintainer"
+        android:title="メンテナ `Maintainer"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.du.DuMaintainerPreferenceController"/>
@@ -62,14 +62,14 @@
     <!-- Changelog -->
     <Preference
         android:key="changelog"
-        android:title="@string/changelog_title"
+        android:title="ログの変更 `Changelog"
         android:summary="@string/changelog_summary"
         android:fragment="com.android.settings.du.Changelog" />
 
     <!-- Phone Specs -->
     <Preference
         android:key="phone_specs"
-        android:title="@string/specs_title"
+        android:title="仕様 `Specs"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SpecsPreferenceController"/>
@@ -77,14 +77,14 @@
     <!-- Security patch -->
     <Preference
         android:key="security_key"
-        android:title="@string/security_patch"
+        android:title="セキュリティ `Security"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SecurityPatchLevelPreferenceController"/>
 
     <!-- Mainline module version
     <Preference
         android:key="module_version"
-        android:title="@string/module_version"
+        android:title="モジュール `Module Version"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.MainlineModuleVersionPreferenceController"/>-->
@@ -92,7 +92,7 @@
     <!-- Baseband -->
     <Preference
         android:key="base_band"
-        android:title="@string/baseband_version"
+        android:title="ベースバンド `Baseband"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.BasebandVersionPreferenceController"/>
@@ -100,7 +100,7 @@
     <!-- Kernel -->
     <Preference
         android:key="kernel_version"
-        android:title="@string/kernel_version"
+        android:title="カーネル `Kernel"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
@@ -108,7 +108,7 @@
     <!-- Build date -->
     <Preference
         android:key="os_build_date"
-        android:title="@string/build_date"
+        android:title="建設日 `Build Date"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.RomBuildDatePreferenceController"/>
@@ -116,7 +116,7 @@
     <!-- Build number -->
     <Preference
         android:key="os_build_number"
-        android:title="@string/build_number"
+        android:title="ビルド番号 `Build Number"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
@@ -124,7 +124,7 @@
     <!-- SELinux -->
     <Preference
         android:key="selinux_status"
-        android:title="@string/selinux_status"
+        android:title="ステータス `Selinux"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="false"
         android:selectable="false"
